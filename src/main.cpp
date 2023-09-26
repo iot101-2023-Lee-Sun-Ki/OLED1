@@ -2,7 +2,7 @@
 #include <SSD1306.h>
 SSD1306   display(0x3c,4,5, GEOMETRY_128_32);
 
-                      int val=0;
+int val=0;
 double data[100];
 double ema=data[0];
 int datasize;
